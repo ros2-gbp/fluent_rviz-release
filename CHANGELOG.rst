@@ -3,6 +3,12 @@ Changelog for package fluent_rviz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
+0.0.3 (2022-06-23)
+------------------
+* Add CONTRIBUTING.md
+* Add LICENSE file
+* Contributors: Kotaro Yoshimoto
+
 0.0.1 (2022-05-24)
 ------------------
 * Reset version
