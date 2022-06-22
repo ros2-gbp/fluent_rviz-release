@@ -1,0 +1,13 @@
+Source: ros-galactic-fluent-rviz
+Section: misc
+Priority: optional
+Maintainer: shouth <shouth373@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake-auto, ros-galactic-ament-lint-auto <!nocheck>, ros-galactic-geometry-msgs, ros-galactic-ouxt-lint-common <!nocheck>, ros-galactic-rclcpp, ros-galactic-std-msgs, ros-galactic-visualization-msgs, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-fluent-rviz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-geometry-msgs, ros-galactic-rclcpp, ros-galactic-std-msgs, ros-galactic-visualization-msgs, ros-galactic-ros-workspace
+Description: A library which makes Rviz fluent.
+ Powered by C++17
