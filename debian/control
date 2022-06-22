@@ -1,0 +1,13 @@
+Source: ros-humble-fluent-rviz
+Section: misc
+Priority: optional
+Maintainer: shouth <shouth373@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-auto, ros-humble-ament-lint-auto <!nocheck>, ros-humble-geometry-msgs, ros-humble-ouxt-lint-common <!nocheck>, ros-humble-rclcpp, ros-humble-std-msgs, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-fluent-rviz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-rclcpp, ros-humble-std-msgs, ros-humble-visualization-msgs, ros-humble-ros-workspace
+Description: A library which makes Rviz fluent.
+ Powered by C++17
