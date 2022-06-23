@@ -1,3 +1,26 @@
+## fluent_rviz (foxy) - 0.0.3-3
+
+The packages in the `fluent_rviz` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --rosdistro foxy --track foxy fluent_rviz --edit` on `Thu, 23 Jun 2022 01:21:21 -0000`
+
+The `fluent_rviz` package was released.
+
+Version of package(s) in repository `fluent_rviz`:
+
+- upstream repository: https://github.com/ForteFibre/FluentRviz.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.0.3-2`
+- new version: `0.0.3-3`
+
+Versions of tools used:
+
+- bloom version: `0.11.1`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## fluent_rviz (foxy) - 0.0.3-2
 
 The packages in the `fluent_rviz` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --rosdistro foxy --track foxy fluent_rviz` on `Thu, 23 Jun 2022 01:12:13 -0000`
