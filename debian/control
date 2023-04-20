@@ -1,0 +1,13 @@
+Source: ros-iron-fluent-rviz
+Section: misc
+Priority: optional
+Maintainer: shouth <shouth373@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-auto, ros-iron-ament-lint-auto <!nocheck>, ros-iron-geometry-msgs, ros-iron-ouxt-lint-common <!nocheck>, ros-iron-rclcpp, ros-iron-std-msgs, ros-iron-visualization-msgs, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-fluent-rviz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-geometry-msgs, ros-iron-rclcpp, ros-iron-std-msgs, ros-iron-visualization-msgs, ros-iron-ros-workspace
+Description: A library which makes Rviz fluent.
+ Powered by C++17
