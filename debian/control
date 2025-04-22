@@ -1,0 +1,13 @@
+Source: ros-kilted-fluent-rviz
+Section: misc
+Priority: optional
+Maintainer: shouth <shouth373@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-auto, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-geometry-msgs, ros-kilted-ouxt-lint-common <!nocheck>, ros-kilted-rclcpp, ros-kilted-std-msgs, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-fluent-rviz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-geometry-msgs, ros-kilted-rclcpp, ros-kilted-std-msgs, ros-kilted-visualization-msgs, ros-kilted-ros-workspace
+Description: A library which makes Rviz fluent.
+ Powered by C++17
