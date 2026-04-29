@@ -1,0 +1,13 @@
+Source: ros-lyrical-fluent-rviz
+Section: misc
+Priority: optional
+Maintainer: shouth <shouth373@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake-auto, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-ouxt-lint-common <!nocheck>, ros-lyrical-rclcpp, ros-lyrical-std-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/fluent_rviz/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-fluent-rviz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-rclcpp, ros-lyrical-std-msgs, ros-lyrical-visualization-msgs, ros-lyrical-ros-workspace
+Description: A library which makes Rviz fluent.
+ Powered by C++17
